@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: open sans;
+}
+
+.calculator {
+    flex: 0 0 95%;
+    width: 320px;
+    height: 520px;
+    background-color: black;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba (0, 0, 0, 0.19);
+}
+
+.screen {
+    height: 120px;
+    width: 100%;
+    font-size: 4rem;
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    border: none;
+    text-align: left;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.5s linear;
+}
+
+button {
+    width: 55px;
+    height: 55px;
+    margin: 12px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-size: 23px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    background-color: #414242;
+}
+
+button:active {
+    font-size: 13px;
+    border: none;
+}
+
+button:nth-child(4) {
+    font-size: 20px;
+    background-color: #ffa500;
+    color: white;
+}
+
+button:nth-child(8) {
+    font-size: 20px;
+    background-color: #ffa500;
+    color: white;
+}
+
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: #ffa500;
+    color: white;
+}
+
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: #ffa500;
+    color: white;
+}
+
+button:nth-child(19) {
+    font-size: 20px;
+    background-color: #ffa500;
+    color: white;
+}
+
+
+/*NEW CHANGES*/
+
+button:nth-child(1) {
+    font-size: 20px;
+    background-color: rgb(138, 136, 136);
+}
+
+button:nth-child(2) {
+    font-size: 20px;
+    background-color: rgb(138, 136, 136);
+}
+
+button:nth-child(3) {
+    font-size: 20px;
+    background-color: rgb(138, 136, 136);
+}
+
+button:nth-child(19) {
+    font-size: 20px;
+}
+
+button:nth-child(17) {
+    font-size: 22px;
+    padding-right: 124px;
+    padding-left: 10px;
+    border-radius: 50px;
+}
+
+
+/*.btn-yellow {
+    background: rgb(245, 146, 62);
+    color: white;
+}
+
+.btn-grey {
+    background: rgb(224, 224, 224);
+}
+
+.btn,
+.btn-equal,
+.btn-clear {
+    font-size: 4rem;
+}
+
+.btn-equal {
+    background: green;
+}
+
+.btn-clear {
+    background: red;
+}*/
