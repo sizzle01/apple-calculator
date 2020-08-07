@@ -6,6 +6,9 @@
 
 body {
     font-family: open sans;
+    background-image: url(backpic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .calculator {
